@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
 /// <summary>
-/// Веб-служба для обслуживания программы VKrutka
+/// Веб-служба для имитации работы простых веб-методов.
 /// </summary>
 [WebService(Namespace = "http://tempuri.org/")]
 [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]

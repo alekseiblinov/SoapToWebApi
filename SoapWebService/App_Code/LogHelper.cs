@@ -12,7 +12,7 @@ static class LogHelper
     /// <summary>
     /// Имя файла лога. 
     /// </summary>
-    private const string LOG_FILE_NAME = "vkrutka_webservice_log";
+    private const string LOG_FILE_NAME = "webservice_log";
     /// <summary>
     /// Расширение файла лога.
     /// </summary>
@@ -129,7 +129,7 @@ static class LogHelper
         try
         {
             //ParamNameValue prmErrorData = new ParamNameValue("errorData", messageText);
-            //SqlDataAccessLogic.UpdateInsertDeleteFunction("[dbo].[vkrutka_WebserviceErrorDataWrite]", prmErrorData);
+            //SqlDataAccessLogic.UpdateInsertDeleteFunction("[dbo].[WebserviceErrorDataWrite]", prmErrorData);
         }
         catch (Exception)
         {
