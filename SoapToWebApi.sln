@@ -26,12 +26,12 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "soapWebService", "soapWebSe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{C3CB408F-2256-4502-95AC-06F2C9980658}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestClient", "TestClient\TestClient.csproj", "{5B4991A9-2852-403F-88A5-4253FAE0569C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{99E642FA-094D-4B46-AC3F-C977DB1E64EA}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClientWpf", "TestClientWpf\TestClientWpf.csproj", "{34D19D3B-2E39-4913-AA0E-F702B4860722}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{C3CB408F-2256-4502-95AC-06F2C9980658}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3CB408F-2256-4502-95AC-06F2C9980658}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3CB408F-2256-4502-95AC-06F2C9980658}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5B4991A9-2852-403F-88A5-4253FAE0569C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B4991A9-2852-403F-88A5-4253FAE0569C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B4991A9-2852-403F-88A5-4253FAE0569C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B4991A9-2852-403F-88A5-4253FAE0569C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D19D3B-2E39-4913-AA0E-F702B4860722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D19D3B-2E39-4913-AA0E-F702B4860722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D19D3B-2E39-4913-AA0E-F702B4860722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D19D3B-2E39-4913-AA0E-F702B4860722}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
